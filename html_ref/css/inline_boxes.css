@@ -7,18 +7,32 @@ div{
     text-align: center;
     height: 100px;
     width: 100px;
-    display: block;
     /* box-sizing: border-box; */
 }
 div.box1{
     background-color: rgb(253, 69, 69);
     padding:50px;
-    margin:100px ;
+    margin:300px ;
     border:50px solid purple;
+    display: inline;
 }
 div.box2{
     background-color: rgb(157, 157, 254);
     padding:50px;
-    margin:100px ;
+    margin:300px ;
     border:50px solid rgb(232, 0, 232);
+    display: inline;
+}
+
+div.box3{
+    background-color: rgb(253, 69, 69);
+    padding:50px;
+    border:50px solid purple;
+    display: inline;
+}
+div.box4{
+    background-color: rgb(157, 157, 254);
+    padding:50px;
+    border:50px solid rgb(232, 0, 232);
+    display: inline;
 }

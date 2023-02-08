@@ -1,0 +1,27 @@
+*{
+    font-family: "DejaVu Sans", sans-serif;
+}
+
+
+
+
+.flex-container {
+    background: rgb(246, 197, 154);
+    border: 2px solid brown;
+    display: flex; 
+    margin: 2px;
+}
+  
+/* this selector selects all divs inside of .flex-container */
+.flex-container > div {
+    background: peachpuff;
+    border: 2px solid brown;
+    margin: 2px;
+    height: 100px;
+    flex: 1;
+}
+
+.flex-container > div.one {
+    background: peachpuff;
+    text-align: center;
+}
