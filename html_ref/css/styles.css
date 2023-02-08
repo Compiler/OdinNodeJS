@@ -1,0 +1,20 @@
+*{
+    font-family: "DejaVu Sans", sans-serif;
+}
+img.img_set{
+    width: 500px;
+    height: 500px;
+    align-self: center;
+}
+.HomeHeader{
+    color: rgb(0, 7, 63);
+    text-align: center;
+}
+a:visited{
+    color: rgb(57, 110, 110);
+}
+a{
+    color: rgb(1, 81, 81);
+}
+
+
