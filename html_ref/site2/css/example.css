@@ -1,0 +1,74 @@
+.flex-container-v {
+    background: rgb(26, 43, 71);
+    display: flex; 
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+
+.contain-header {
+    background: rgb(86, 126, 189);
+    display: flex; 
+    border:2px solid rgb(255, 185, 185);
+    flex-direction: row;
+    flex: 1 1 auto;
+}
+
+
+
+.contain-home {
+    background: rgb(86, 126, 189);
+    display: flex; 
+    height:100px;
+    border:2px solid rgb(0, 21, 255);
+    flex-direction: row;
+    flex: 1 1 auto;
+    justify-content: space-around;
+}
+.contain-home > div{
+    background: rgb(86, 126, 189);
+    border:2px solid rgb(72, 63, 251);
+    justify-self: center;
+    align-self: center;
+}
+
+.contain-nav {
+    background: rgb(255, 170, 0);
+    display: flex; 
+    border:2px solid rgb(255, 185, 185);
+    flex: 1 1 auto;
+    justify-content: flex-end;
+}
+.contain-nav > *{
+    height: 50px;
+    border:2px solid rgb(255, 255, 255);
+    justify-self: flex-start;
+}
+.contain-icon {
+    background: rgb(86, 126, 189);
+    display: flex; 
+    flex: 1 1 auto;
+    border:2px solid rgb(255, 65, 65);
+    justify-content: flex-start;
+}
+
+.contain-icon > *{
+    height: 50px;
+    border:2px solid rgb(255, 255, 255);
+    justify-self: flex-start;
+}
+
+.flex-container {
+    background: rgb(189, 134, 86);
+    display: flex; 
+    border:2px solid rgb(255, 0, 0);
+    flex-direction: row;
+}
+
+
+.flex-container > div{
+    background: peachpuff;
+    color:rgb(0, 7, 63);
+    border: 2px solid brown;
+    margin: 2px;
+} 
