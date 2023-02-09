@@ -1,0 +1,46 @@
+*{
+    font-family: "DejaVu Sans", sans-serif;
+}
+
+div {
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #EEEEEE;
+}
+
+a.homebutton {
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #340303;
+}
+
+.s1 {
+    background-color: #548CA8;
+}
+
+.s2 {
+    background-color: #476072;
+}
+
+.s3 {
+    background-color: #334257;
+}
+img.img_set{
+    width: 500px;
+    height: 500px;
+    align-self: center;
+}
+.HomeHeader{
+    color: rgb(0, 7, 63);
+    text-align: center;
+}
+a:visited{
+    color: rgb(162, 210, 210);
+}
+a{
+    color: rgb(131, 175, 175);
+}
+
+

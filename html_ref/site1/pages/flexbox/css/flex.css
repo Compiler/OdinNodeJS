@@ -3,13 +3,21 @@
 }
 
 
-
-
-.flex-container {
-    background: rgb(246, 197, 154);
+.flex-container_v {
+    background: rgb(154, 246, 176);
     border: 2px solid brown;
     display: flex; 
     margin: 2px;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.flex-container {
+    background: rgb(154, 246, 176);
+    border: 2px solid brown;
+    display: flex; 
+    margin: 2px;
+    flex: 1 1 auto;
 }
   
 /* this selector selects all divs inside of .flex-container */
@@ -17,8 +25,8 @@
     background: peachpuff;
     border: 2px solid brown;
     margin: 2px;
-    height: 100px;
-    flex: 1;
+    height: 200px;
+    flex: 1 1 auto;
 }
 
 .flex-container > div.one {
