@@ -1,0 +1,43 @@
+
+
+.contain{
+    display:flex;
+    direction:column;
+    border: 2px solid brown;
+    background: lightcoral;
+    margin:20vh;
+    flex:1 1 auto;
+    justify-content: space-evenly;
+}
+
+.contain > div{
+    background-color: peachpuff;
+    height: 60vh;
+    border: 2px solid brown;
+}
+
+div#inputs{
+    flex: 0.2 1 0%;
+}
+
+#sketch{
+    display:flex;
+    direction:column;
+    border: 2px solid brown;
+    background: lightgray;
+    width : 80vh;
+    flex:1;
+}
+
+#sketch.row{
+    display:flex;
+    direction:row;
+    background-color: lightgray;
+    flex:1 1 auto;
+}
+
+
+div#sketch > div{
+    min-width: 0;
+    /* margin: 1px; */
+}

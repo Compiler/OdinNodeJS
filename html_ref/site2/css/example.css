@@ -23,12 +23,11 @@
     border:2px solid rgb(0, 21, 255);
     flex-direction: row;
     flex: 1 1 auto;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .contain-home > div{
     background: rgb(86, 126, 189);
     border:2px solid rgb(72, 63, 251);
-    justify-self: center;
     align-self: center;
 }
 
@@ -70,5 +69,4 @@
     background: peachpuff;
     color:rgb(0, 7, 63);
     border: 2px solid brown;
-    margin: 2px;
 } 
