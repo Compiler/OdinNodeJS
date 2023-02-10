@@ -1,11 +1,28 @@
 
+*{
+    font-family: "DejaVu Sans", sans-serif;
+}
 
+.top{
+    display:flex;
+    border: 2px solid brown;
+    background: lightcoral; 
+    margin-left: 10vh;
+    margin-right: 10vh;
+    justify-content: center;
+}
+
+.top > div{
+    text-align: center;
+    text-shadow: 3;
+}
 .contain{
     display:flex;
     direction:column;
     border: 2px solid brown;
     background: lightcoral;
-    margin:20vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
     flex:1 1 auto;
     justify-content: space-evenly;
 }
@@ -16,7 +33,7 @@
     border: 2px solid brown;
 }
 
-div#inputs{
+#inputs{
     flex: 0.2 1 0%;
 }
 
@@ -27,17 +44,22 @@ div#inputs{
     background: lightgray;
     width : 80vh;
     flex:1;
+    justify-content: space-around;
+    min-width: 0;
 }
 
 #sketch.row{
     display:flex;
-    direction:row;
+    direction:column;
     background-color: lightgray;
-    flex:1 1 auto;
+    flex:1 0 auto;
+    min-width: 0;
+    justify-content: space-around;
 }
 
 
 div#sketch > div{
     min-width: 0;
+    backface-visibility: hidden
     /* margin: 1px; */
 }
