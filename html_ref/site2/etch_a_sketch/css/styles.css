@@ -24,7 +24,6 @@
     margin-left: 10vh;
     margin-right: 10vh;
     flex:1 1 auto;
-    justify-content: space-evenly;
 }
 
 .contain > div{
@@ -36,7 +35,10 @@
 #inputs{
     flex: 0.2 1 0%;
 }
-
+#inputs > *{
+    padding-left: 50px;
+    margin-top: 10px;
+}
 #sketch{
     display:flex;
     direction:column;
