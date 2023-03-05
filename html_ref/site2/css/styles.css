@@ -2,6 +2,10 @@
     font-family: "DejaVu Sans", sans-serif;
 }
 
+.HomeHeader{
+    text-shadow: 1px 1px 2px rgb(97, 155, 243), 0 0 1em blue, 0 0 0.2em blue;
+}
+
 .flex-container-v {
     background: rgb(185, 211, 255);
     border: 2px solid brown;
