@@ -1,0 +1,29 @@
+
+
+
+.board{
+    display: flex; 
+    flex-direction: column;
+    background-color: aqua;
+    margin: 200px;
+    flex:1 0 auto;
+}
+
+.row{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around; 
+    background-color: rgb(208, 105, 54);
+    padding: 5px;
+    flex:1 1 auto;
+}
+
+.cell{
+    display: flex; 
+    background-color: rgb(145, 126, 105);
+    padding: 20px;
+    justify-content: center;
+    border: solid rgb(0, 0, 0) 2px;
+    white-space: nowrap;
+    flex:1 0 auto;
+}
