@@ -1,0 +1,43 @@
+*{
+    font-family: "DejaVu Sans", sans-serif;
+}
+
+
+.book{
+    background: rgb(237, 138, 96);
+    border: 2px solid brown;
+    display: flex; 
+    margin: 2px;
+    flex: 1 1 auto;
+    justify-content: center;
+}
+.bookcase {
+    background: rgb(154, 202, 246);
+    border: 2px solid brown;
+    display: flex; 
+    flex-flow: column;
+    margin: 2px;
+    flex: 1 1 auto;
+}
+
+
+.bookshelf {
+    background: rgb(246, 157, 154);
+    border: 2px solid brown;
+    display: flex; 
+    flex-flow: row;
+    margin: 2px;
+    flex: 1 1 auto;
+}
+  
+
+.flex-container#header{
+    background: rgb(154, 246, 176);
+    border: 2px solid brown;
+    display: flex; 
+    margin: 2px;
+    flex: 1 1 auto;
+    justify-content: center;
+}
+  
+
