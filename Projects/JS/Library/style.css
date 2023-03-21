@@ -3,12 +3,16 @@
 }
 
 
+form{
+    visibility: hidden;
+}
+
 .book{
     background: rgb(237, 138, 96);
     border: 2px solid brown;
     display: flex; 
     margin: 2px;
-    flex: 1 1 auto;
+    flex: 0.33 1 auto;
     justify-content: center;
 }
 .bookcase {
