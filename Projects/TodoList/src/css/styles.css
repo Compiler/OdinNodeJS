@@ -1,0 +1,14 @@
+
+
+
+tab{
+   display: flex;
+   
+   
+   flex: 1 1 auto;
+}
+
+div{
+    background: peachpuff;
+    color: purple;
+}
