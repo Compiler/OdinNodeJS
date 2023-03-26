@@ -1,7 +1,7 @@
 
 
 const img = document.querySelector('img')
-fetch('https://api.giphy.com/v1/gifs/translate?api_key=fY3qzxOJE2mP6rWv4JMTa6wVCXAntCdF&s=jordanpeterson', {mode:'cors'})
+fetch('https://api.giphy.com/v1/gifs/translate?api_key=fY3qzxOJE2mP6rWv4JMTa6wVCXAntCdF&s=lukeroche', {mode:'cors'})
 .then(function(response) {
   // Successful response :)
   return response.json()
