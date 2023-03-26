@@ -1,14 +1,26 @@
 
+*{
+    background-color: black;
+}
 
 
-tab{
+div#content{
+    display:flex;
+    flex: 1 1 auto;
+}
+
+div#sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 0.2 1 auto;
+};
+div.tab1{
    display: flex;
-   
-   
    flex: 1 1 auto;
 }
 
 div{
     background: peachpuff;
     color: purple;
+    border: 10px solid aqua
 }

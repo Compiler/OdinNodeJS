@@ -1,0 +1,1 @@
+(()=>{const o=document.querySelector("img");fetch("https://api.giphy.com/v1/gifs/translate?api_key=fY3qzxOJE2mP6rWv4JMTa6wVCXAntCdF&s=jordanpeterson",{mode:"cors"}).then((function(o){return o.json()})).then((n=>(console.log(n),o.src=n.data.images.original.url,n))).catch((function(o){console.log(o)}))})();
